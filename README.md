@@ -74,11 +74,13 @@ it sure is liquid nitrogen.
         * `linux-firmware`
         * `grub`
         * `vi`
+        * 'git'
         * `niceCream`
+    * Extra kernel modules
+        * `fmem`
 * `niceCream`
     * Functions
         * Write
-        * Read
 
 ## Testing methodology
 
