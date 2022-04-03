@@ -93,3 +93,10 @@ it sure is liquid nitrogen.
 * Boot second installation environment.
 * Attempt to read the pattern from memory, and write it to a file on disk.
 * Compare patterns from the read file, and the expected pattern.
+
+## Resources and inspiration 
+* [Wikipedia](https://en.wikipedia.org/wiki/Cold_boot_attack)
+* [Palinopsia Blog](https://hsmr.cc/palinopsia/)
+* [fmem](https://github.com/NateBrune/fmem)
+* [Make](https://www.gnu.org/software/make)
+* The `C` library function manpages.
