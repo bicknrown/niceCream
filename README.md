@@ -6,6 +6,29 @@ your data: gone
 ## About
 A proof of concept for physically freezing system memory to read the stored data on another physical system.
 
+This project was originally created for the UBHacking Spring 2022 hackathon.
+
+This project won the first place prize.
+[DEVPOST](https://ub-hacking-spring-2022.devpost.com/)
+[DEVPOST project page](https://devpost.com/software/nicecream-x2klfz)
+
+A big thank you to the event staff for putting up with my shenanigans, all the people that encouraged me to pursue this project, listened to my rambling, and enjoyed the icecream with me. <3
+
+## Testing methodology
+* Populate desired memory slots with desired dimms on the system to be frozen.
+* Boot first installation environment.
+* Write specified pattern using `niceCream -w`
+* **Freeze the memory module(s)**
+* Remove the module(s) from the now frozen system.
+* Insert the frozen modules into the not frozen system.
+* Boot second installation environment.
+* Attempt to read the pattern from memory using `/dev/fmem`, and write it to a file on disk.
+* Compare patterns from the read file, and the expected pattern.
+
+## Data
+All raw data from runs are located in `raw/` linked within markdown files.
+Processed data will be in `data/`.
+
 ## Hardware Setup
 ### `ln^2`
 it sure is liquid nitrogen.
@@ -22,7 +45,7 @@ it sure is liquid nitrogen.
 
 ### Platform differences
 #### "Frozone" - System being frozen.
-* CPU: AMD Phenom 9500 Quad-Core
+* CPU: `AMD Phenom 9500 Quad-Core`
 * Logic board:
     * Model: `ALONPAV`
     * Core Version: `V6.0`
@@ -81,18 +104,6 @@ it sure is liquid nitrogen.
 * `niceCream`
     * Functions
         * Write
-
-## Testing methodology
-
-* Populate desired memory slots with desired dimms on the system to be frozen.
-* Boot first installation environment.
-* Write specified pattern using `niceCream -w`
-* **Freeze the memory module(s)**
-* Remove the module(s) from the now frozen system.
-* Insert the frozen modules into the not frozen system.
-* Boot second installation environment.
-* Attempt to read the pattern from memory, and write it to a file on disk.
-* Compare patterns from the read file, and the expected pattern.
 
 ## Resources and inspiration 
 * [Wikipedia](https://en.wikipedia.org/wiki/Cold_boot_attack)
