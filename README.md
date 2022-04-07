@@ -14,6 +14,10 @@ This project won the first place prize.
 
 A big thank you to the event staff for putting up with my shenanigans, all the people that encouraged me to pursue this project, listened to my rambling, and enjoyed the icecream with me. <3
 
+[Event Pictures](#pictures-from-the-event)
+
+[Ice cream recipe](#ice-cream-recipe-used-for-the-demo)
+
 ## Testing methodology
 * Populate desired memory slots with desired dimms on the system to be frozen.
 * Boot first installation environment.
@@ -111,3 +115,32 @@ it sure is liquid nitrogen.
 * [fmem](https://github.com/NateBrune/fmem)
 * [Make](https://www.gnu.org/software/make)
 * The `C` library function manpages.
+
+## Pictures from the event
+![Test setup for demonstration](https://user-images.githubusercontent.com/50608130/162247901-41ecb5b4-fe1e-4639-96f2-5cceac3dfa2c.jpeg)
+The final testing setup used for demonstration with the two systems. ("Frozone" on the right, "Violet" on the left)
+![Pouring liquid nitrogen onto the memory module](https://user-images.githubusercontent.com/50608130/162247994-e505a803-e8a2-4635-8e91-9a7c74c9fcbd.jpeg)
+Using a vacuum insulated water bottle (unfortunatly not from [lttstore.com](https://lttstore.com)) to freeze the memory module being tested.
+![Using liquid nitrogen to make icecream](https://user-images.githubusercontent.com/50608130/162248003-6b7c9ad3-699a-40be-bbaa-4a32d54af02d.jpeg)
+Making (vanilla) ice cream, freezing with liquid nitrogen.
+
+### Ice cream recipe (used for the demo)
+#### Non-food items
+* Liquid nitrogen. (about five (5) liters)
+* Large bowl. (about two (2) times larger than the raw ingredients would occupy.)
+* Measuring cups.
+* Baking spatula.
+#### Ingredients
+* Two (2) cups of heavy cream (whipping or otherwise)
+* Two (2) cups of "half and half" cream.
+* One (1) cup of granulated table sugar.
+* Two (2) teaspoons of vanilla extract.
+
+#### Instructions that I came up with on the spot on demo day.
+1. Combine all ingredients together in a large bowl.
+    * I didn't find the adding order to matter that much.
+2. Stir with baking spatula until thoroughly mixed.
+3. Add about one (1) cup of liquid nitrogen.
+4. Stir until all liquid nitrogen evaporates off.
+5. Repeat steps 3 and 4 until the ice cream reaches a consistency you are happy with.
+6. Enjoy!
